@@ -1,0 +1,12 @@
+title: Luis Palacios
+description: Physics → Data Science → AI
+baseurl: ""
+url: "https://luisfpal.github.io"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - "Git Stash Usage Explained.md"
+  - README.md
