@@ -49,7 +49,7 @@ title: Luis Palacios
     </div>
     <div class="project-content">
       <span class="project-tag" style="background: rgba(195, 142, 255, 0.1); color: var(--accent-purple);">Active Research</span>
-      <a href="https://github.com/luisfpal/LLaVA_Representations_Analysis" class="project-title">VLM Interpretability & Geometry</a>
+      <a href="https://github.com/luisfpal/LLaVA_Representations_Analysis" class="project-title" target="_blank" rel="noopener noreferrer">VLM Interpretability & Geometry</a>
       <p class="project-desc">Ongoing research investigating how visual instruction tuning reshapes internal geometry. Identified that early-mid layers learn to "see" while late layers handle decoding. Serving as the foundation for current VLM interpretability work.</p>
       <div class="project-tech">
         <span class="tech-tag">PyTorch</span>
@@ -66,7 +66,7 @@ title: Luis Palacios
     </div>
     <div class="project-content">
       <span class="project-tag">Generative AI</span>
-      <a href="https://github.com/luisfpal/NLP-UniTS" class="project-title">Emu3 Generation Quality</a>
+      <a href="https://github.com/luisfpal/NLP-UniTS" class="project-title" target="_blank" rel="noopener noreferrer">Emu3 Generation Quality</a>
       <p class="project-desc">Evaluated the impact of vision-understanding fine-tuning on image generation quality. Benchmarked Emu3 models using MSCOCO and FID metrics on A100 clusters.</p>
       <div class="project-tech">
         <span class="tech-tag">Emu3</span>
@@ -84,7 +84,7 @@ title: Luis Palacios
     </div>
     <div class="project-content">
       <span class="project-tag">Reliable AI</span>
-      <a href="https://github.com/luisfpal/XAI-RAI-UniTS" class="project-title">Model Robustness & XAI</a>
+      <a href="https://github.com/luisfpal/XAI-RAI-UniTS" class="project-title" target="_blank" rel="noopener noreferrer">Model Robustness & XAI</a>
       <p class="project-desc">Analyzed the robustness of ResNet, ViT, and Swin backbones against adversarial attacks. Evaluated XAI explanations (Grad-CAM, Captum) under noise perturbations.</p>
       <div class="project-tech">
         <span class="tech-tag">Vision Transformers</span>
@@ -101,7 +101,7 @@ title: Luis Palacios
     </div>
     <div class="project-content">
       <span class="project-tag">Probabilistic ML</span>
-      <a href="https://github.com/luisfpal/ProbabilisticMachineLearningAndDeepLearning-UniTS" class="project-title">Diffusion Anomaly Correction</a>
+      <a href="https://github.com/luisfpal/ProbabilisticMachineLearningAndDeepLearning-UniTS" class="project-title" target="_blank" rel="noopener noreferrer">Diffusion Anomaly Correction</a>
       <p class="project-desc">Developed an anomaly correction pipeline for categorical data. Combined classifier gradients with data distributions learned via diffusion models to refine predictions.</p>
       <div class="project-tech">
         <span class="tech-tag">Diffusion Models</span>

@@ -17,7 +17,7 @@ title: Projects
     </div>
     <div class="project-content">
       <span class="project-tag" style="background: rgba(195, 142, 255, 0.1); color: var(--accent-purple);">Active Research</span>
-      <a href="https://github.com/luisfpal/LLaVA_Representations_Analysis" class="project-title">VLM Interpretability & Geometry</a>
+      <a href="https://github.com/luisfpal/LLaVA_Representations_Analysis" class="project-title" target="_blank" rel="noopener noreferrer">VLM Interpretability & Geometry</a>
       <p class="project-desc">Ongoing research investigating how visual instruction tuning reshapes internal geometry. Identified that early-mid layers learn to "see" while late layers handle decoding. Serving as the foundation for current VLM interpretability work.</p>
       <div class="project-tech">
         <span class="tech-tag">PyTorch</span>
@@ -34,7 +34,7 @@ title: Projects
     </div>
     <div class="project-content">
       <span class="project-tag">Generative AI</span>
-      <a href="https://github.com/luisfpal/NLP-UniTS" class="project-title">Emu3 Generation Quality</a>
+      <a href="https://github.com/luisfpal/NLP-UniTS" class="project-title" target="_blank" rel="noopener noreferrer">Emu3 Generation Quality</a>
       <p class="project-desc">Evaluated the impact of vision-understanding fine-tuning on image generation quality. Benchmarked Emu3 models using MSCOCO and FID metrics on A100 clusters.</p>
       <div class="project-tech">
         <span class="tech-tag">Emu3</span>
@@ -52,7 +52,7 @@ title: Projects
     </div>
     <div class="project-content">
       <span class="project-tag">Reliable AI</span>
-      <a href="https://github.com/luisfpal/XAI-RAI-UniTS" class="project-title">Model Robustness & XAI</a>
+      <a href="https://github.com/luisfpal/XAI-RAI-UniTS" class="project-title" target="_blank" rel="noopener noreferrer">Model Robustness & XAI</a>
       <p class="project-desc">Analyzed the robustness of ResNet, ViT, and Swin backbones against adversarial attacks. Evaluated XAI explanations (Grad-CAM, Captum) under noise perturbations.</p>
       <div class="project-tech">
         <span class="tech-tag">Vision Transformers</span>
@@ -69,7 +69,7 @@ title: Projects
     </div>
     <div class="project-content">
       <span class="project-tag">Probabilistic ML</span>
-      <a href="https://github.com/luisfpal/ProbabilisticMachineLearningAndDeepLearning-UniTS" class="project-title">Diffusion Anomaly Correction</a>
+      <a href="https://github.com/luisfpal/ProbabilisticMachineLearningAndDeepLearning-UniTS" class="project-title" target="_blank" rel="noopener noreferrer">Diffusion Anomaly Correction</a>
       <p class="project-desc">Developed an anomaly correction pipeline for categorical data. Combined classifier gradients with data distributions learned via diffusion models to refine predictions.</p>
       <div class="project-tech">
         <span class="tech-tag">Diffusion Models</span>
@@ -86,7 +86,7 @@ title: Projects
     </div>
     <div class="project-content">
       <span class="project-tag">Distributed Systems</span>
-      <a href="https://github.com/luisfpal/CloudComputing-UniTS" class="project-title">Cloud Observability & Testing</a>
+      <a href="https://github.com/luisfpal/CloudComputing-UniTS" class="project-title" target="_blank" rel="noopener noreferrer">Cloud Observability & Testing</a>
       <p class="project-desc">Implemented a containerized Nextcloud deployment with a robust observability pipeline. Evaluated system scalability using Prometheus, Grafana, and Locust load testing.</p>
       <div class="project-tech">
         <span class="tech-tag">Docker</span>
@@ -103,7 +103,7 @@ title: Projects
     </div>
     <div class="project-content">
       <span class="project-tag">Evolutionary AI</span>
-      <a href="https://github.com/luisfpal/OptimizationForArtificialIntelligence-UniTS" class="project-title">Evolutionary Game Theory</a>
+      <a href="https://github.com/luisfpal/OptimizationForArtificialIntelligence-UniTS" class="project-title" target="_blank" rel="noopener noreferrer">Evolutionary Game Theory</a>
       <p class="project-desc">Evolved adaptive strategies for the Iterated Prisoner’s Dilemma using Genetic Algorithms. Benchmarked against Axelrod’s classic tournament strategies.</p>
       <div class="project-tech">
         <span class="tech-tag">Genetic Algorithms</span>
@@ -120,7 +120,7 @@ title: Projects
     </div>
     <div class="project-content">
       <span class="project-tag">Geometric Deep Learning</span>
-      <a href="https://github.com/luisfpal/AdvancedDeepLearning-UniTS" class="project-title">Equivariant Networks & Frame Theory</a>
+      <a href="https://github.com/luisfpal/AdvancedDeepLearning-UniTS" class="project-title" target="_blank" rel="noopener noreferrer">Equivariant Networks & Frame Theory</a>
       <p class="project-desc">Designed architectures that exploit inherent data symmetries. Implemented Group Equivariant CNNs (G-CNNs) and Low Coherence MLPs to enhance training efficiency.</p>
       <div class="project-tech">
         <span class="tech-tag">PyTorch</span>
@@ -137,7 +137,7 @@ title: Projects
     </div>
     <div class="project-content">
       <span class="project-tag">Reinforcement Learning</span>
-      <a href="https://github.com/luisfpal/ReinforcementLearning-UniTS" class="project-title">Soft Actor-Critic Control</a>
+      <a href="https://github.com/luisfpal/ReinforcementLearning-UniTS" class="project-title" target="_blank" rel="noopener noreferrer">Soft Actor-Critic Control</a>
       <p class="project-desc">Implemented Soft Actor-Critic (SAC) and TD3 algorithms for continuous control tasks. Evaluated performance across complex Gymnasium environments.</p>
       <div class="project-tech">
         <span class="tech-tag">Gymnasium</span>
@@ -154,7 +154,7 @@ title: Projects
     </div>
     <div class="project-content">
       <span class="project-tag">Scientific ML</span>
-      <a href="https://github.com/luisfpal/SimulationIntelligenceAndLearningForAutonomousSystems-UniTS" class="project-title">Multi-Fidelity Inverse PDEs</a>
+      <a href="https://github.com/luisfpal/SimulationIntelligenceAndLearningForAutonomousSystems-UniTS" class="project-title" target="_blank" rel="noopener noreferrer">Multi-Fidelity Inverse PDEs</a>
       <p class="project-desc">Combined composite neural networks for multi-fidelity data with Proximal Policy Optimization (PPO) for autonomous system control and inverse PDE solving.</p>
       <div class="project-tech">
         <span class="tech-tag">PDEs</span>
@@ -171,7 +171,7 @@ title: Projects
     </div>
     <div class="project-content">
       <span class="project-tag">Statistical ML</span>
-      <a href="https://github.com/luisfpal/StatisticalMethods-UniTS" class="project-title">Statistical Analysis & Modeling</a>
+      <a href="https://github.com/luisfpal/StatisticalMethods-UniTS" class="project-title" target="_blank" rel="noopener noreferrer">Statistical Analysis & Modeling</a>
       <p class="project-desc">End-to-end statistical analysis project focusing on rigorous data processing, robust modeling, and reproducible research reporting.</p>
       <div class="project-tech">
         <span class="tech-tag">R</span>
@@ -188,7 +188,7 @@ title: Projects
     </div>
     <div class="project-content">
       <span class="project-tag">HPC & Optimization</span>
-      <a href="https://github.com/luisfpal/HighPerformanceComputing-UniTS" class="project-title">High Performance Computing</a>
+      <a href="https://github.com/luisfpal/HighPerformanceComputing-UniTS" class="project-title" target="_blank" rel="noopener noreferrer">High Performance Computing</a>
       <p class="project-desc">Parallel computing and hardware optimization for scientific simulations. Focused on C-based performance tuning and CMake-driven builds.</p>
       <div class="project-tech">
         <span class="tech-tag">C</span>
@@ -205,7 +205,7 @@ title: Projects
     </div>
     <div class="project-content">
       <span class="project-tag">Software Eng</span>
-      <a href="https://github.com/luisfpal/AdvancedProgramming-SISSA" class="project-title">Scientific C++ Engineering</a>
+      <a href="https://github.com/luisfpal/AdvancedProgramming-SISSA" class="project-title" target="_blank" rel="noopener noreferrer">Scientific C++ Engineering</a>
       <p class="project-desc">Advanced software engineering patterns for scientific applications at SISSA. Focused on memory management and high-performance design.</p>
       <div class="project-tech">
         <span class="tech-tag">C++</span>
