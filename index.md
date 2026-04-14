@@ -114,5 +114,4 @@ title: Luis Palacios
 
 <div style="margin-top: 40px; text-align: center;">
   <a href="{{ '/projects/' | relative_url }}" class="glass" style="padding: 12px 32px; text-decoration: none; color: var(--accent-cyan); font-weight: 600; font-size: 0.9em; display: inline-block;">Explore All Projects &rarr;</a>
-</div>ccent-cyan); font-weight: 600; font-size: 0.9em; display: inline-block;">Explore All Projects &rarr;</a>
 </div>
