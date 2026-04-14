@@ -14,13 +14,13 @@ title: Luis Palacios
       Bridging the gap between deep mathematical research and production-scale engineering.
     </p>
     <p style="margin-top: 16px;">
-      As a culmination of my Master in Data Management & Curation, I am currently building scalable MLOps infrastructure (Kubernetes, S3, Ceph, BentoML) as an intern at Area Science Park. Simultaneously, I conduct active research in Vision-Language Model (VLM) interpretability. My physics background drives a ruthless, first-principles approach to solving complex AI scaling problems.
+      As a culmination of my Master in Data Management & Curation, I am engineering production-scale systems at Area Science Park—building MLOps infrastructure (Kubernetes, BentoML) and secure data storage solutions (Kubernetes, S3, Ceph, Authentik). Simultaneously, I am extending my master's thesis on LLaVA to push the boundaries of Vision-Language Model (VLM) interpretability.
     </p>
   </div>
   
   <div class="bento-item item-stat glass">
-    <div class="stat-value" style="font-size: 2em;">MLOps</div>
-    <div class="stat-label">K8s &middot; Ceph &middot; BentoML</div>
+    <div class="stat-value" style="font-size: 1.8em;">MLOps & Data</div>
+    <div class="stat-label">K8s &middot; BentoML &middot; Ceph &middot; S3</div>
   </div>
 
   <div class="bento-item item-stat glass">
