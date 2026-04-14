@@ -14,23 +14,23 @@ title: Luis Palacios
       Physics-informed Data Science, Machine Learning, and MLOps.
     </p>
     <p style="margin-top: 16px;">
-      My background in physics drives a first-principles approach to complex systems. As part of my Master in Data Management & Curation, I am building MLOps infrastructure (Kubernetes, BentoML) and data storage solutions (S3, Ceph, Authentik) as an intern at Area Science Park. Concurrently, I am continuing my research on Vision-Language Model (VLM) interpretability, extending my master's thesis on LLaVA representations.
+      My background in physics drives a first-principles approach to complex systems. I hold an MSc in Data Science & AI and am currently finalizing a Master in Data Management & Curation. As a Research Intern at Area Science Park, I build MLOps infrastructure (Kubernetes, BentoML) and data storage solutions (S3, Ceph) while conducting research on Vision-Language Model (VLM) interpretability.
     </p>
   </div>
-  
+
   <div class="bento-item item-stat glass">
     <div class="stat-value" style="font-size: 1.8em;">MLOps & Data</div>
     <div class="stat-label">K8s &middot; BentoML &middot; Ceph &middot; S3</div>
   </div>
 
   <div class="bento-item item-stat glass">
-    <div class="stat-value" style="font-size: 1.4em;">Completed MSc Data Science</div>
+    <div class="stat-value" style="font-size: 1.4em;">MSc Data Science & AI</div>
     <div class="stat-label">University of Trieste</div>
   </div>
 
   <div class="bento-item item-stat glass">
-    <div class="stat-value" style="font-size: 1.4em;">Finishing Master Data Mgt</div>
-    <div class="stat-label"><a href="https://www.sissa.it/training/professional-master-courses/master-data-management-and-curation" style="color: inherit; text-decoration: underline;" target="_blank">SISSA & Area Science Park</a></div>
+    <div class="stat-value" style="font-size: 1.4em;">Master Data Management</div>
+    <div class="stat-label"><a href="https://www.sissa.it/" style="color: inherit; text-decoration: underline;" target="_blank">SISSA</a> &amp; <a href="https://www.areasciencepark.it/" style="color: inherit; text-decoration: underline;" target="_blank">Area Science Park</a></div>
   </div>
 </div>
 
