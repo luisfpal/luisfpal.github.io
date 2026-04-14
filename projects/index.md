@@ -12,7 +12,7 @@ title: Projects
   <!-- Optimization -->
   <div class="project-card glass">
     <div class="project-image-container">
-      <div class="project-image-placeholder">IteratedPrisonersDilemma.png</div>
+      <img class="project-image" src="{{ '/assets/img/projects/evolutionary_game_theory.png' | relative_url }}" alt="Iterated Prisoner's Dilemma Results">
     </div>
     <div class="project-content">
       <span class="project-tag">Evolutionary AI</span>
@@ -29,7 +29,7 @@ title: Projects
   <!-- ADL -->
   <div class="project-card glass">
     <div class="project-image-container">
-      <div class="project-image-placeholder">group_equivariant_cnn.png</div>
+      <img class="project-image" src="{{ '/assets/img/projects/advanced_dl.png' | relative_url }}" alt="t-SNE 3D Projection of Latent Space">
     </div>
     <div class="project-content">
       <span class="project-tag">Geometric DL</span>
@@ -46,7 +46,7 @@ title: Projects
   <!-- RL -->
   <div class="project-card glass">
     <div class="project-image-container">
-      <div class="project-image-placeholder">continuous_control.png</div>
+      <img class="project-image" src="{{ '/assets/img/projects/rl_control.png' | relative_url }}" alt="Soft Actor-Critic Control in Gymnasium">
     </div>
     <div class="project-content">
       <span class="project-tag">Control</span>
@@ -63,7 +63,7 @@ title: Projects
   <!-- Multi-Fidelity -->
   <div class="project-card glass">
     <div class="project-image-container">
-      <div class="project-image-placeholder">inverse_pde.png</div>
+      <img class="project-image" src="{{ '/assets/img/projects/inverse_pdes.png' | relative_url }}" alt="Multi-fidelity Inverse PDE Results">
     </div>
     <div class="project-content">
       <span class="project-tag">Scientific ML</span>
@@ -80,7 +80,7 @@ title: Projects
   <!-- HPC -->
   <div class="project-card glass">
     <div class="project-image-container">
-      <div class="project-image-placeholder">parallel_optimization.png</div>
+      <img class="project-image" src="{{ '/assets/img/projects/hpc.svg' | relative_url }}" alt="High Performance Computing OpenMP Execution">
     </div>
     <div class="project-content">
       <span class="project-tag">Performance</span>
@@ -97,7 +97,7 @@ title: Projects
   <!-- Advanced Programming -->
   <div class="project-card glass">
     <div class="project-image-container">
-      <div class="project-image-placeholder">cpp_patterns.png</div>
+      <img class="project-image" src="{{ '/assets/img/projects/cpp_patterns.svg' | relative_url }}" alt="C++ Software Engineering Patterns">
     </div>
     <div class="project-content">
       <span class="project-tag">Engineering</span>

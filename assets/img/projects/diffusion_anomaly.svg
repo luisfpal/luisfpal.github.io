@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#1a1f2e"/>
+  <circle cx="200" cy="100" r="50" fill="none" stroke="#7df9ff" stroke-width="2" stroke-dasharray="4 4" opacity="0.5"/>
+  <path d="M 100 150 Q 200 50 300 150" fill="none" stroke="#c38eff" stroke-width="3" opacity="0.8"/>
+  <circle cx="250" cy="100" r="4" fill="#ff9ef8"/>
+  <circle cx="150" cy="100" r="4" fill="#ff9ef8"/>
+  <text x="200" y="180" font-family="monospace" font-size="12" fill="rgba(255,255,255,0.3)" text-anchor="middle">Diffusion Forward/Reverse Process</text>
+</svg>

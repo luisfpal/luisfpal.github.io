@@ -35,7 +35,7 @@ title: Luis Palacios
   <!-- LLaVA Representations -->
   <div class="project-card glass">
     <div class="project-image-container">
-      <div class="project-image-placeholder">geometry_analysis.png</div>
+      <img class="project-image" src="{{ '/assets/img/projects/llava_representations.png' | relative_url }}" alt="LLaVA Architecture and Representations">
     </div>
     <div class="project-content">
       <span class="project-tag">Research</span>
@@ -52,7 +52,7 @@ title: Luis Palacios
   <!-- Emu3 / NLP -->
   <div class="project-card glass">
     <div class="project-image-container">
-      <div class="project-image-placeholder">fid_quality_metrics.png</div>
+      <img class="project-image" src="{{ '/assets/img/projects/nlp_emu3.png' | relative_url }}" alt="Emu3 Generated Image Quintuplet">
     </div>
     <div class="project-content">
       <span class="project-tag">Generative AI</span>
@@ -70,7 +70,7 @@ title: Luis Palacios
   <!-- XAI / Robustness -->
   <div class="project-card glass">
     <div class="project-image-container">
-      <div class="project-image-placeholder">adversarial_robustness.png</div>
+      <img class="project-image" src="{{ '/assets/img/projects/xai_robustness.png' | relative_url }}" alt="Grad-CAM explanations of adversarial attacks">
     </div>
     <div class="project-content">
       <span class="project-tag">Reliable AI</span>
@@ -87,7 +87,7 @@ title: Luis Palacios
   <!-- Diffusion Models -->
   <div class="project-card glass">
     <div class="project-image-container">
-      <div class="project-image-placeholder">diffusion_correction.png</div>
+      <img class="project-image" src="{{ '/assets/img/projects/diffusion_anomaly.svg' | relative_url }}" alt="Diffusion Anomaly Correction">
     </div>
     <div class="project-content">
       <span class="project-tag">Probabilistic ML</span>
