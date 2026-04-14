@@ -5,7 +5,7 @@ title: Luis Palacios
 
 <div class="hero-section">
   <h1>Luis Palacios</h1>
-  <p class="hero-tagline">Physics-Informed ML &rarr; <span>Scalable Infrastructure</span></p>
+  <p class="hero-tagline">Physics &rarr; Data Science &rarr; <span>AI + CS + Data Management</span></p>
 </div>
 
 <div class="bento-grid">
