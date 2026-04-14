@@ -5,17 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <!-- Refined Typography: Inter for a crisp, high-end tech aesthetic -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
-    <header>
-      <h1><a href="{{ '/' | relative_url }}">Luis Palacios</a></h1>
-      <p class="tagline">Physics → Data Science → AI</p>
-      <nav>
-        <a href="{{ '/' | relative_url }}">home</a>
-        <a href="{{ '/projects/' | relative_url }}">projects</a>
-        <a href="{{ '/notes/' | relative_url }}">notes</a>
-        <a href="{{ '/publications/' | relative_url }}">publications</a>
+    <header class="main-header">
+      <div class="logo">
+        <a href="{{ '/' | relative_url }}">Luis Palacios</a>
+      </div>
+      <nav class="main-nav">
+        <a href="{{ '/projects/' | relative_url }}">Projects</a>
       </nav>
     </header>
 
@@ -23,8 +25,8 @@
       {{ content }}
     </main>
 
-    <footer>
-      <a href="https://github.com/luisfpal">github</a>
+    <footer class="main-footer">
+      <a href="https://github.com/luisfpal" target="_blank" rel="noopener noreferrer">GitHub</a>
     </footer>
   </div>
 </body>

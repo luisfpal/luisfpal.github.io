@@ -3,34 +3,35 @@ layout: default
 title: Luis Palacios
 ---
 
+<div class="hero-section">
+  <h1>Luis Palacios</h1>
+  <p class="hero-tagline">Physics &rarr; Data Science &rarr; AI</p>
+</div>
+
 ## About
 
-MSc in Data Science and AI (University of Trieste). Background in physics.
-I work on machine learning — representations, generative models, and multimodal systems.
-
-This site collects what I'm working on, writing about, or trying to understand.
+MSc in Data Science and AI at the University of Trieste. 
+I work on machine learning &mdash; specifically representations, generative models, and multimodal systems. I leverage my physics background to build and understand complex architectures.
 
 ---
 
-## Projects
+## Featured Work
 
-Selected work from research and coursework. Full list on the [projects page](/projects/).
+Selected research and projects. Full archive available on the [projects page](/projects/).
 
-- **[LLaVA Representations Analysis](https://github.com/luisfpal/LLaVA_Representations_Analysis)** — How do the internal representations of a vision-language model change after visual instruction fine-tuning?
-- **[Advanced Deep Learning](https://github.com/luisfpal/AdvancedDeepLearning-UniTS)** — Activities from the ADL course at UniTS (2024–2025).
-- **[NLP](https://github.com/luisfpal/NLP-UniTS)** — Natural Language Processing project at UniTS (2024–2025).
-- **[Reinforcement Learning](https://github.com/luisfpal/ReinforcementLearning-UniTS)** — RL project at UniTS (2023–2024).
+<ul class="project-list">
+  <li class="project-item">
+    <a href="https://github.com/luisfpal/LLaVA_Representations_Analysis" class="project-title">LLaVA Representations Analysis</a>
+    <p class="project-description">Analyzing internal state transitions in vision-language models during visual instruction fine-tuning.</p>
+  </li>
+  <li class="project-item">
+    <a href="https://github.com/luisfpal/AdvancedDeepLearning-UniTS" class="project-title">Advanced Deep Learning</a>
+    <p class="project-description">Implementation and experimentation with cutting-edge DL architectures (2024&ndash;2025).</p>
+  </li>
+  <li class="project-item">
+    <a href="https://github.com/luisfpal/ReinforcementLearning-UniTS" class="project-title">Reinforcement Learning</a>
+    <p class="project-description">Research and development of RL agents for complex environments.</p>
+  </li>
+</ul>
 
-[All projects →](/projects/)
-
----
-
-## Notes
-
-[Browse notes →](/notes/)
-
----
-
-## Publications
-
-[Details →](/publications/)
+[View all projects &rarr;](/projects/)

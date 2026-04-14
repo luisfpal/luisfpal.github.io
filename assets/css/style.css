@@ -1,3 +1,13 @@
+:root {
+  --bg-color: #fafcfc;
+  --text-primary: #111111;
+  --text-secondary: #555555;
+  --accent-color: #000000;
+  --border-color: #eeeeee;
+  --font-main: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --container-width: 680px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,120 +15,167 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.65;
-  color: #222;
-  background: #fff;
+  font-family: var(--font-main);
+  background-color: var(--bg-color);
+  color: var(--text-secondary);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
-  max-width: 680px;
+  max-width: var(--container-width);
   margin: 0 auto;
-  padding: 60px 24px 80px;
+  padding: 80px 24px 120px;
 }
 
 /* Header */
 
-header {
-  margin-bottom: 52px;
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
 }
 
-header h1 {
-  font-size: 1.4em;
+.logo a {
+  font-size: 1.1em;
   font-weight: 600;
-}
-
-header h1 a {
+  letter-spacing: -0.02em;
   text-decoration: none;
-  color: #222;
+  color: var(--text-primary);
 }
 
-.tagline {
-  color: #777;
-  margin: 5px 0 18px;
+.main-nav a {
   font-size: 0.95em;
-}
-
-nav a {
-  margin-right: 18px;
+  font-weight: 500;
   text-decoration: none;
-  color: #555;
-  font-size: 0.9em;
+  color: var(--text-secondary);
+  transition: color 0.2s ease;
 }
 
-nav a:hover {
-  color: #111;
+.main-nav a:hover {
+  color: var(--text-primary);
 }
 
-/* Content */
+/* Typography */
+
+h1, h2, h3 {
+  color: var(--text-primary);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+h1 {
+  font-size: 2.2em;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
 
 h2 {
-  font-size: 0.8em;
+  font-size: 0.85em;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   color: #999;
-  margin: 44px 0 14px;
-  font-weight: 600;
+  margin: 64px 0 24px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.1em;
+  margin: 40px 0 12px;
 }
 
 p {
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 14px;
+/* Hero Section */
+
+.hero-section {
+  margin-bottom: 80px;
 }
 
-ul li {
-  margin-bottom: 8px;
-  padding-left: 0;
+.hero-tagline {
+  font-size: 1.4em;
+  font-weight: 500;
+  color: var(--text-secondary);
+  letter-spacing: -0.01em;
+  opacity: 0.8;
 }
 
-ul li::before {
-  content: "— ";
-  color: #bbb;
-}
+/* Links */
 
 a {
-  color: #111;
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  color: var(--text-primary);
+  text-decoration: none;
+  position: relative;
+  transition: color 0.2s ease;
 }
 
-a:hover {
-  color: #000;
+main a:not(.no-underline) {
+  padding-bottom: 2px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  transition: border-color 0.2s ease, color 0.2s ease;
 }
 
-hr {
-  border: none;
-  border-top: 1px solid #eee;
-  margin: 40px 0;
+main a:not(.no-underline):hover {
+  border-bottom-color: var(--text-primary);
+  color: var(--accent-color);
+}
+
+/* Projects List */
+
+.project-list {
+  list-style: none;
+}
+
+.project-item {
+  margin-bottom: 32px;
+}
+
+.project-title {
+  display: block;
+  font-weight: 600;
+  font-size: 1.05em;
+  margin-bottom: 4px;
+}
+
+.project-description {
+  font-size: 0.95em;
+  color: var(--text-secondary);
 }
 
 /* Footer */
 
-footer {
-  margin-top: 72px;
-  font-size: 0.85em;
-  color: #bbb;
+.main-footer {
+  margin-top: 100px;
+  padding-top: 40px;
+  border-top: 1px solid var(--border-color);
+  font-size: 0.9em;
 }
 
-footer a {
+.main-footer a {
   color: #bbb;
-  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
-footer a:hover {
-  color: #555;
+.main-footer a:hover {
+  color: var(--text-secondary);
 }
 
 /* Responsive */
 
 @media (max-width: 480px) {
   .container {
-    padding: 40px 18px 60px;
+    padding: 60px 20px 80px;
+  }
+  
+  .main-header {
+    margin-bottom: 60px;
+  }
+  
+  h1 {
+    font-size: 1.8em;
   }
 }
