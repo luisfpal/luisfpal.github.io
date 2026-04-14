@@ -38,13 +38,13 @@ title: Luis Palacios
       <img class="project-image" src="{{ '/assets/img/projects/llava_representations.png' | relative_url }}" alt="LLaVA Architecture and Representations">
     </div>
     <div class="project-content">
-      <span class="project-tag">Research</span>
-      <a href="https://github.com/luisfpal/LLaVA_Representations_Analysis" class="project-title">LLaVA Representation Geometry</a>
-      <p class="project-desc">Investigated how visual instruction tuning reshapes internal geometry. Identified that early-mid layers learn to "see" while late layers handle decoding. Patching mid-layers recovers major performance gains.</p>
+      <span class="project-tag" style="background: rgba(195, 142, 255, 0.1); color: var(--accent-purple);">Active Research</span>
+      <a href="https://github.com/luisfpal/LLaVA_Representations_Analysis" class="project-title">VLM Interpretability & Geometry</a>
+      <p class="project-desc">Ongoing research investigating how visual instruction tuning reshapes internal geometry. Identified that early-mid layers learn to "see" while late layers handle decoding. Serving as the foundation for current VLM interpretability work.</p>
       <div class="project-tech">
         <span class="tech-tag">PyTorch</span>
         <span class="tech-tag">HuggingFace</span>
-        <span class="tech-tag">Llama2</span>
+        <span class="tech-tag">LLaVA / Llama2</span>
       </div>
     </div>
   </div>
@@ -92,6 +92,20 @@ title: Luis Palacios
     <div class="project-content">
       <span class="project-tag">Probabilistic ML</span>
       <a href="https://github.com/luisfpal/ProbabilisticMachineLearningAndDeepLearning-UniTS" class="project-title">Diffusion Anomaly Correction</a>
+      <p class="project-desc">Developed an anomaly correction pipeline for categorical data. Combined classifier gradients with data distributions learned via diffusion models to refine predictions.</p>
+      <div class="project-tech">
+        <span class="tech-tag">Diffusion Models</span>
+        <span class="tech-tag">Anomaly Detection</span>
+        <span class="tech-tag">JAX/PyTorch</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 40px; text-align: center;">
+  <a href="/projects/" class="glass" style="padding: 12px 32px; text-decoration: none; color: var(--accent-cyan); font-weight: 600; font-size: 0.9em; display: inline-block;">Explore All Projects &rarr;</a>
+</div>
+    <a href="https://github.com/luisfpal/ProbabilisticMachineLearningAndDeepLearning-UniTS" class="project-title">Diffusion Anomaly Correction</a>
       <p class="project-desc">Developed an anomaly correction pipeline for categorical data. Combined classifier gradients with data distributions learned via diffusion models to refine predictions.</p>
       <div class="project-tech">
         <span class="tech-tag">Diffusion Models</span>
