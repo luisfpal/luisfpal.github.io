@@ -14,7 +14,7 @@ title: Luis Palacios
       Physics-informed Data Science, Machine Learning, and MLOps.
     </p>
     <p style="margin-top: 16px;">
-      As part of my Master in Data Management & Curation, I am building MLOps infrastructure (Kubernetes, BentoML) and data storage solutions (S3, Ceph, Authentik) as an intern at Area Science Park. Concurrently, I am continuing my research on Vision-Language Model (VLM) interpretability, extending my master's thesis on LLaVA representations.
+      My background in physics drives a first-principles approach to complex systems. As part of my Master in Data Management & Curation, I am building MLOps infrastructure (Kubernetes, BentoML) and data storage solutions (S3, Ceph, Authentik) as an intern at Area Science Park. Concurrently, I am continuing my research on Vision-Language Model (VLM) interpretability, extending my master's thesis on LLaVA representations.
     </p>
   </div>
   
