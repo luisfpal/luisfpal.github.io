@@ -14,13 +14,13 @@ title: Luis Palacios
       I am a technology enthusiast, like solving problems and building things (human design and sketch + AI powered for speed).
     </p>
     <p style="margin-top: 16px;">
-      My background in physics drives a first-principles approach to complex systems. I hold an MSc in Data Science & AI and am currently finalizing a Master in Data Management & Curation. As a Research Intern at Area Science Park, I build MLOps infrastructure (Kubernetes, BentoML) and data storage solutions (S3, Ceph) while conducting research on Vision-Language Model (VLM) interpretability.
+      My background in physics drives a first-principles approach to complex systems. I hold a BSc in Physics, an MSc in Data Science & AI, and am currently finalizing a Master in Data Management & Curation. As a Research Intern at Area Science Park, I build MLOps infrastructure (Kubernetes, BentoML) and data storage solutions (S3, Ceph) while conducting research on Vision-Language Model (VLM) interpretability.
     </p>
   </div>
 
   <div class="bento-item item-stat glass">
-    <div class="stat-value" style="font-size: 1.8em;">MLOps & Data</div>
-    <div class="stat-label">K8s &middot; BentoML &middot; Ceph &middot; S3</div>
+    <div class="stat-value" style="font-size: 1.4em;">BSc Physics</div>
+    <div class="stat-label">National Polytechnic School (EPN)</div>
   </div>
 
   <div class="bento-item item-stat glass">
@@ -31,6 +31,11 @@ title: Luis Palacios
   <div class="bento-item item-stat glass">
     <div class="stat-value" style="font-size: 1.4em;">Master Data Management</div>
     <div class="stat-label"><a href="https://www.sissa.it/" style="color: inherit; text-decoration: underline;" target="_blank">SISSA</a> &amp; <a href="https://www.areasciencepark.it/" style="color: inherit; text-decoration: underline;" target="_blank">Area Science Park</a></div>
+  </div>
+
+  <div class="bento-item item-stat glass">
+    <div class="stat-value" style="font-size: 1.8em;">MLOps & Data</div>
+    <div class="stat-label">K8s &middot; BentoML &middot; Ceph &middot; S3</div>
   </div>
 </div>
 

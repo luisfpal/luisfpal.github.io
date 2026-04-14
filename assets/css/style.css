@@ -137,7 +137,7 @@ h1 {
 }
 
 .item-stat {
-  grid-column: span 2;
+  grid-column: span 3;
   grid-row: span 1;
   text-align: center;
   border-color: rgba(195, 142, 255, 0.2);
