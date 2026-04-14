@@ -14,7 +14,7 @@ title: Luis Palacios
       Bridging the gap between deep mathematical research and production-scale engineering.
     </p>
     <p style="margin-top: 16px;">
-      Currently building scalable MLOps infrastructure (Kubernetes, S3, Ceph, BentoML) as a Data Management Intern at Area Science Park (Trieste, Italy). Simultaneously conducting active research in Vision-Language Model (VLM) interpretability. My physics background drives a ruthless, first-principles approach to solving complex AI scaling problems.
+      As a culmination of my Master in Data Management & Curation, I am currently building scalable MLOps infrastructure (Kubernetes, S3, Ceph, BentoML) as an intern at Area Science Park. Simultaneously, I conduct active research in Vision-Language Model (VLM) interpretability. My physics background drives a ruthless, first-principles approach to solving complex AI scaling problems.
     </p>
   </div>
   
@@ -24,12 +24,12 @@ title: Luis Palacios
   </div>
 
   <div class="bento-item item-stat glass">
-    <div class="stat-value" style="font-size: 1.4em;">MSc Data Science & AI</div>
+    <div class="stat-value" style="font-size: 1.4em;">Completed MSc Data Science</div>
     <div class="stat-label">University of Trieste</div>
   </div>
 
   <div class="bento-item item-stat glass">
-    <div class="stat-value" style="font-size: 1.4em;">Master Data Management</div>
+    <div class="stat-value" style="font-size: 1.4em;">Finishing Master Data Mgt</div>
     <div class="stat-label"><a href="https://www.sissa.it/training/professional-master-courses/master-data-management-and-curation" style="color: inherit; text-decoration: underline;" target="_blank">SISSA & Area Science Park</a></div>
   </div>
 </div>

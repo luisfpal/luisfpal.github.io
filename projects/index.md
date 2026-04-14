@@ -5,7 +5,7 @@ title: Projects
 
 <div class="hero-section" style="margin-bottom: 40px;">
   <h1>Archive</h1>
-  <p class="hero-tagline">Research, Engineering &mdash; <span>UniTS / SISSA</span></p>
+  <p class="hero-tagline">Research & Engineering &mdash; <span>SISSA & Area Science Park</span></p>
 </div>
 
 <div class="featured-projects">
