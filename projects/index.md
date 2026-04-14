@@ -3,68 +3,111 @@ layout: default
 title: Projects
 ---
 
-# Projects
+<div class="hero-section" style="margin-bottom: 40px;">
+  <h1>Archive</h1>
+  <p class="hero-tagline">Research, Engineering &mdash; <span>UniTS / SISSA</span></p>
+</div>
 
-Work from research and MSc coursework at the University of Trieste and SISSA.
+<div class="featured-projects">
+  <!-- Optimization -->
+  <div class="project-card glass">
+    <div class="project-image-container">
+      <div class="project-image-placeholder">IteratedPrisonersDilemma.png</div>
+    </div>
+    <div class="project-content">
+      <span class="project-tag">Evolutionary AI</span>
+      <a href="https://github.com/luisfpal/OptimizationForArtificialIntelligence-UniTS" class="project-title">Evolutionary Game Theory</a>
+      <p class="project-desc">Evolved adaptive strategies for the Iterated Prisoner’s Dilemma using Genetic Algorithms. Benchmarked against Axelrod’s classic tournament strategies.</p>
+      <div class="project-tech">
+        <span class="tech-tag">Genetic Algorithms</span>
+        <span class="tech-tag">Game Theory</span>
+        <span class="tech-tag">Python</span>
+      </div>
+    </div>
+  </div>
 
----
+  <!-- ADL -->
+  <div class="project-card glass">
+    <div class="project-image-container">
+      <div class="project-image-placeholder">group_equivariant_cnn.png</div>
+    </div>
+    <div class="project-content">
+      <span class="project-tag">Geometric DL</span>
+      <a href="https://github.com/luisfpal/AdvancedDeepLearning-UniTS" class="project-title">Group Equivariant CNNs</a>
+      <p class="project-desc">Explored architectures that exploit data symmetries. Implemented G-CNNs and Low Coherence MLPs to enhance training efficiency through frame theory.</p>
+      <div class="project-tech">
+        <span class="tech-tag">PyTorch</span>
+        <span class="tech-tag">Symmetry</span>
+        <span class="tech-tag">Frame Theory</span>
+      </div>
+    </div>
+  </div>
 
-## Research
+  <!-- RL -->
+  <div class="project-card glass">
+    <div class="project-image-container">
+      <div class="project-image-placeholder">continuous_control.png</div>
+    </div>
+    <div class="project-content">
+      <span class="project-tag">Control</span>
+      <a href="https://github.com/luisfpal/ReinforcementLearning-UniTS" class="project-title">Soft Actor-Critic Control</a>
+      <p class="project-desc">Implemented SAC and TD3 algorithms for continuous control tasks. Evaluated performance across various Gymnasium environments.</p>
+      <div class="project-tech">
+        <span class="tech-tag">Gymnasium</span>
+        <span class="tech-tag">SAC</span>
+        <span class="tech-tag">TD3</span>
+      </div>
+    </div>
+  </div>
 
-<ul class="project-list">
-  <li class="project-item">
-    <a href="https://github.com/luisfpal/LLaVA_Representations_Analysis" class="project-title">LLaVA Representations Analysis</a>
-    <p class="project-description">Analysis of internal representation changes in vision-language models after visual instruction fine-tuning.</p>
-  </li>
-</ul>
+  <!-- Multi-Fidelity -->
+  <div class="project-card glass">
+    <div class="project-image-container">
+      <div class="project-image-placeholder">inverse_pde.png</div>
+    </div>
+    <div class="project-content">
+      <span class="project-tag">Scientific ML</span>
+      <a href="https://github.com/luisfpal/SimulationIntelligenceAndLearningForAutonomousSystems-UniTS" class="project-title">Multi-Fidelity Inverse PDEs</a>
+      <p class="project-desc">Combined composite neural networks for multi-fidelity data with PPO for autonomous system control. Applied to inverse PDE problems.</p>
+      <div class="project-tech">
+        <span class="tech-tag">PDEs</span>
+        <span class="tech-tag">PPO</span>
+        <span class="tech-tag">Neural Nets</span>
+      </div>
+    </div>
+  </div>
 
----
+  <!-- HPC -->
+  <div class="project-card glass">
+    <div class="project-image-container">
+      <div class="project-image-placeholder">parallel_optimization.png</div>
+    </div>
+    <div class="project-content">
+      <span class="project-tag">Performance</span>
+      <a href="https://github.com/luisfpal/HighPerformanceComputing-UniTS" class="project-title">High Performance Computing</a>
+      <p class="project-desc">Parallel computing and hardware optimization for scientific simulations. Focused on C-based performance tuning and CMake-driven builds.</p>
+      <div class="project-tech">
+        <span class="tech-tag">C</span>
+        <span class="tech-tag">OpenMP</span>
+        <span class="tech-tag">CMake</span>
+      </div>
+    </div>
+  </div>
 
-## Master's Coursework &mdash; UniTS / SISSA (2023&ndash;2025)
-
-<ul class="project-list">
-  <li class="project-item">
-    <a href="https://github.com/luisfpal/AdvancedDeepLearning-UniTS" class="project-title">Advanced Deep Learning</a>
-    <p class="project-description">2024&ndash;2025 coursework on deep learning architectures.</p>
-  </li>
-  <li class="project-item">
-    <a href="https://github.com/luisfpal/NLP-UniTS" class="project-title">Natural Language Processing</a>
-    <p class="project-description">2024&ndash;2025 project work in NLP.</p>
-  </li>
-  <li class="project-item">
-    <a href="https://github.com/luisfpal/XAI-RAI-UniTS" class="project-title">XAI / RAI</a>
-    <p class="project-description">Explainable and Reliable Artificial Intelligence (2024&ndash;2025).</p>
-  </li>
-  <li class="project-item">
-    <a href="https://github.com/luisfpal/OptimizationForArtificialIntelligence-UniTS" class="project-title">Optimization for AI</a>
-    <p class="project-description">Mathematical optimization methods for machine learning (2024&ndash;2025).</p>
-  </li>
-  <li class="project-item">
-    <a href="https://github.com/luisfpal/SimulationIntelligenceAndLearningForAutonomousSystems-UniTS" class="project-title">Simulation & Learning for Autonomous Systems</a>
-    <p class="project-description">Control and learning in autonomous agents (2024&ndash;2025).</p>
-  </li>
-  <li class="project-item">
-    <a href="https://github.com/luisfpal/ProbabilisticMachineLearningAndDeepLearning-UniTS" class="project-title">Probabilistic ML & Deep Learning</a>
-    <p class="project-description">Probabilistic approaches to deep architectures (2023&ndash;2024).</p>
-  </li>
-  <li class="project-item">
-    <a href="https://github.com/luisfpal/ReinforcementLearning-UniTS" class="project-title">Reinforcement Learning</a>
-    <p class="project-description">2023&ndash;2024 project on reinforcement learning algorithms.</p>
-  </li>
-  <li class="project-item">
-    <a href="https://github.com/luisfpal/StatisticalMethods-UniTS" class="project-title">Statistical Methods for Data Science</a>
-    <p class="project-description">Foundational statistical modeling (2023&ndash;2024).</p>
-  </li>
-  <li class="project-item">
-    <a href="https://github.com/luisfpal/HighPerformanceComputing-UniTS" class="project-title">High Performance Computing</a>
-    <p class="project-description">Parallel computing and hardware optimization (2023&ndash;2024).</p>
-  </li>
-  <li class="project-item">
-    <a href="https://github.com/luisfpal/CloudComputing-UniTS" class="project-title">Cloud Computing</a>
-    <p class="project-description">Distributed systems and cloud infrastructure (2023&ndash;2024).</p>
-  </li>
-  <li class="project-item">
-    <a href="https://github.com/luisfpal/AdvancedProgramming-SISSA" class="project-title">Advanced Programming</a>
-    <p class="project-description">C++ and advanced software engineering patterns (2023&ndash;2024).</p>
-  </li>
-</ul>
+  <!-- Advanced Programming -->
+  <div class="project-card glass">
+    <div class="project-image-container">
+      <div class="project-image-placeholder">cpp_patterns.png</div>
+    </div>
+    <div class="project-content">
+      <span class="project-tag">Engineering</span>
+      <a href="https://github.com/luisfpal/AdvancedProgramming-SISSA" class="project-title">Scientific C++ Engineering</a>
+      <p class="project-desc">Advanced software engineering patterns for scientific applications at SISSA. Focused on memory management and high-performance design.</p>
+      <div class="project-tech">
+        <span class="tech-tag">C++</span>
+        <span class="tech-tag">Design Patterns</span>
+        <span class="tech-tag">Memory Ops</span>
+      </div>
+    </div>
+  </div>
+</div>
