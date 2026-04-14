@@ -11,7 +11,7 @@ title: Luis Palacios
 <div class="bento-grid">
   <div class="bento-item item-about glass">
     <p style="color: var(--text-primary); font-size: 1.1em; font-weight: 500;">
-      Physics-informed Data Science, Machine Learning, and MLOps.
+      I am a technology enthusiast, like solving problems and building things (human design and sketch + AI powered for speed).
     </p>
     <p style="margin-top: 16px;">
       My background in physics drives a first-principles approach to complex systems. I hold an MSc in Data Science & AI and am currently finalizing a Master in Data Management & Curation. As a Research Intern at Area Science Park, I build MLOps infrastructure (Kubernetes, BentoML) and data storage solutions (S3, Ceph) while conducting research on Vision-Language Model (VLM) interpretability.
