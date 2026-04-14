@@ -5,16 +5,16 @@ title: Luis Palacios
 
 <div class="hero-section">
   <h1>Luis Palacios</h1>
-  <p class="hero-tagline">Physics &rarr; Data Science &rarr; <span>AI</span></p>
+  <p class="hero-tagline">Physics-Informed ML &rarr; <span>Scalable Infrastructure</span></p>
 </div>
 
 <div class="bento-grid">
   <div class="bento-item item-about glass">
     <p style="color: var(--text-primary); font-size: 1.1em; font-weight: 500;">
-      Data Management Intern @ Area Science Park (Trieste, Italy)
+      Bridging the gap between deep mathematical research and production-scale engineering.
     </p>
     <p style="margin-top: 16px;">
-      Currently building scalable MLOps infrastructure utilizing Kubernetes, S3, Ceph, and BentoML. Alongside my engineering work, I'm conducting active research in Vision-Language Model (VLM) interpretability. My physics background drives a first-principles approach to solving complex AI and data scale problems.
+      Currently building scalable MLOps infrastructure (Kubernetes, S3, Ceph, BentoML) as a Data Management Intern at Area Science Park (Trieste, Italy). Simultaneously conducting active research in Vision-Language Model (VLM) interpretability. My physics background drives a ruthless, first-principles approach to solving complex AI scaling problems.
     </p>
   </div>
   
