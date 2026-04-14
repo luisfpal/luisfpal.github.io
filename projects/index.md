@@ -153,7 +153,7 @@ title: Projects
       <img class="project-image" src="{{ '/assets/img/projects/inverse_pdes.png' | relative_url }}" alt="Multi-fidelity Inverse PDE Results">
     </div>
     <div class="project-content">
-      <span class="project-tag">Physics-Informed ML</span>
+      <span class="project-tag">Scientific ML</span>
       <a href="https://github.com/luisfpal/SimulationIntelligenceAndLearningForAutonomousSystems-UniTS" class="project-title">Multi-Fidelity Inverse PDEs</a>
       <p class="project-desc">Combined composite neural networks for multi-fidelity data with Proximal Policy Optimization (PPO) for autonomous system control and inverse PDE solving.</p>
       <div class="project-tech">
