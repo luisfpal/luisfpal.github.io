@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#1a1f2e"/>
+  
+  <!-- Group Equivariance (C4 Symmetry) -->
+  <g transform="translate(200, 90)">
+    <!-- Base grid/frame -->
+    <circle cx="0" cy="0" r="50" fill="none" stroke="rgba(125, 249, 255, 0.2)" stroke-width="1" stroke-dasharray="2 2"/>
+    <circle cx="0" cy="0" r="25" fill="none" stroke="rgba(125, 249, 255, 0.4)" stroke-width="1"/>
+    
+    <!-- Rotating Elements to represent equivariance -->
+    <g stroke="#ff9ef8" stroke-width="2" fill="none">
+      <path d="M 0 -50 L 10 -40 L -10 -40 Z" fill="rgba(255, 158, 248, 0.3)"/>
+      <path d="M 50 0 L 40 10 L 40 -10 Z" fill="rgba(255, 158, 248, 0.3)"/>
+      <path d="M 0 50 L 10 40 L -10 40 Z" fill="rgba(255, 158, 248, 0.3)"/>
+      <path d="M -50 0 L -40 10 L -40 -10 Z" fill="rgba(255, 158, 248, 0.3)"/>
+    </g>
+    
+    <!-- Central Node -->
+    <circle cx="0" cy="0" r="6" fill="#7df9ff"/>
+    
+    <!-- Connecting lines -->
+    <line x1="0" y1="-25" x2="0" y2="-40" stroke="#c38eff" stroke-width="2"/>
+    <line x1="25" y1="0" x2="40" y2="0" stroke="#c38eff" stroke-width="2"/>
+    <line x1="0" y1="25" x2="0" y2="40" stroke="#c38eff" stroke-width="2"/>
+    <line x1="-25" y1="0" x2="-40" y2="0" stroke="#c38eff" stroke-width="2"/>
+  </g>
+  
+  <text x="200" y="180" font-family="monospace" font-size="12" fill="rgba(255,255,255,0.3)" text-anchor="middle">Equivariant Feature Maps</text>
+</svg>

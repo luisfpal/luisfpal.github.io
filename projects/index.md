@@ -47,12 +47,12 @@ title: Projects
   <!-- ADL -->
   <div class="project-card glass">
     <div class="project-image-container">
-      <img class="project-image" src="{{ '/assets/img/projects/advanced_dl.png' | relative_url }}" alt="t-SNE 3D Projection of Latent Space">
+      <img class="project-image" src="{{ '/assets/img/projects/equivariant_cnns.svg' | relative_url }}" alt="Group Equivariant CNN Symmetry">
     </div>
     <div class="project-content">
-      <span class="project-tag">Geometric DL</span>
-      <a href="https://github.com/luisfpal/AdvancedDeepLearning-UniTS" class="project-title">Group Equivariant CNNs</a>
-      <p class="project-desc">Explored architectures that exploit data symmetries. Implemented G-CNNs and Low Coherence MLPs to enhance training efficiency through frame theory.</p>
+      <span class="project-tag">Geometric Deep Learning</span>
+      <a href="https://github.com/luisfpal/AdvancedDeepLearning-UniTS" class="project-title">Equivariant Networks & Frame Theory</a>
+      <p class="project-desc">Designed architectures that exploit inherent data symmetries. Implemented Group Equivariant CNNs (G-CNNs) and Low Coherence MLPs to enhance training efficiency.</p>
       <div class="project-tech">
         <span class="tech-tag">PyTorch</span>
         <span class="tech-tag">Symmetry</span>
@@ -67,9 +67,9 @@ title: Projects
       <img class="project-image" src="{{ '/assets/img/projects/rl_control.png' | relative_url }}" alt="Soft Actor-Critic Control in Gymnasium">
     </div>
     <div class="project-content">
-      <span class="project-tag">Control</span>
+      <span class="project-tag">Reinforcement Learning</span>
       <a href="https://github.com/luisfpal/ReinforcementLearning-UniTS" class="project-title">Soft Actor-Critic Control</a>
-      <p class="project-desc">Implemented SAC and TD3 algorithms for continuous control tasks. Evaluated performance across various Gymnasium environments.</p>
+      <p class="project-desc">Implemented Soft Actor-Critic (SAC) and TD3 algorithms for continuous control tasks. Evaluated performance across complex Gymnasium environments.</p>
       <div class="project-tech">
         <span class="tech-tag">Gymnasium</span>
         <span class="tech-tag">SAC</span>
@@ -84,13 +84,13 @@ title: Projects
       <img class="project-image" src="{{ '/assets/img/projects/inverse_pdes.png' | relative_url }}" alt="Multi-fidelity Inverse PDE Results">
     </div>
     <div class="project-content">
-      <span class="project-tag">Scientific ML</span>
+      <span class="project-tag">Physics-Informed ML</span>
       <a href="https://github.com/luisfpal/SimulationIntelligenceAndLearningForAutonomousSystems-UniTS" class="project-title">Multi-Fidelity Inverse PDEs</a>
-      <p class="project-desc">Combined composite neural networks for multi-fidelity data with PPO for autonomous system control. Applied to inverse PDE problems.</p>
+      <p class="project-desc">Combined composite neural networks for multi-fidelity data with Proximal Policy Optimization (PPO) for autonomous system control and inverse PDE solving.</p>
       <div class="project-tech">
         <span class="tech-tag">PDEs</span>
         <span class="tech-tag">PPO</span>
-        <span class="tech-tag">Neural Nets</span>
+        <span class="tech-tag">PyTorch</span>
       </div>
     </div>
   </div>
@@ -101,13 +101,13 @@ title: Projects
       <img class="project-image" src="{{ '/assets/img/projects/statistical_methods.svg' | relative_url }}" alt="Statistical Methods and Data Analysis">
     </div>
     <div class="project-content">
-      <span class="project-tag">Data Science</span>
+      <span class="project-tag">Statistical ML</span>
       <a href="https://github.com/luisfpal/StatisticalMethods-UniTS" class="project-title">Statistical Analysis & Modeling</a>
-      <p class="project-desc">Comprehensive statistical analysis project focusing on data processing, robust modeling, and reproducible research reporting.</p>
+      <p class="project-desc">End-to-end statistical analysis project focusing on rigorous data processing, robust modeling, and reproducible research reporting.</p>
       <div class="project-tech">
         <span class="tech-tag">R</span>
         <span class="tech-tag">RMarkdown</span>
-        <span class="tech-tag">Statistics</span>
+        <span class="tech-tag">Inference</span>
       </div>
     </div>
   </div>
@@ -118,12 +118,12 @@ title: Projects
       <img class="project-image" src="{{ '/assets/img/projects/hpc.svg' | relative_url }}" alt="High Performance Computing OpenMP Execution">
     </div>
     <div class="project-content">
-      <span class="project-tag">Performance</span>
+      <span class="project-tag">HPC & Optimization</span>
       <a href="https://github.com/luisfpal/HighPerformanceComputing-UniTS" class="project-title">High Performance Computing</a>
       <p class="project-desc">Parallel computing and hardware optimization for scientific simulations. Focused on C-based performance tuning and CMake-driven builds.</p>
       <div class="project-tech">
         <span class="tech-tag">C</span>
-        <span class="tech-tag">OpenMP</span>
+        <span class="tech-tag">OpenMP / MPI</span>
         <span class="tech-tag">CMake</span>
       </div>
     </div>
