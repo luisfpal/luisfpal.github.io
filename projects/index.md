@@ -10,6 +10,75 @@ title: Projects
 
 <div class="featured-projects">
 
+  <!-- LLaVA Representations -->
+  <div class="project-card glass">
+    <div class="project-image-container">
+      <img class="project-image" src="{{ '/assets/img/projects/llava_representations.png' | relative_url }}" alt="LLaVA Architecture and Representations">
+    </div>
+    <div class="project-content">
+      <span class="project-tag" style="background: rgba(195, 142, 255, 0.1); color: var(--accent-purple);">Active Research</span>
+      <a href="https://github.com/luisfpal/LLaVA_Representations_Analysis" class="project-title">VLM Interpretability & Geometry</a>
+      <p class="project-desc">Ongoing research investigating how visual instruction tuning reshapes internal geometry. Identified that early-mid layers learn to "see" while late layers handle decoding. Serving as the foundation for current VLM interpretability work.</p>
+      <div class="project-tech">
+        <span class="tech-tag">PyTorch</span>
+        <span class="tech-tag">HuggingFace</span>
+        <span class="tech-tag">LLaVA / Llama2</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Emu3 / NLP -->
+  <div class="project-card glass">
+    <div class="project-image-container">
+      <img class="project-image" src="{{ '/assets/img/projects/nlp_emu3.png' | relative_url }}" alt="Emu3 Generated Image Quintuplet">
+    </div>
+    <div class="project-content">
+      <span class="project-tag">Generative AI</span>
+      <a href="https://github.com/luisfpal/NLP-UniTS" class="project-title">Emu3 Generation Quality</a>
+      <p class="project-desc">Evaluated the impact of vision-understanding fine-tuning on image generation quality. Benchmarked Emu3 models using MSCOCO and FID metrics on A100 clusters.</p>
+      <div class="project-tech">
+        <span class="tech-tag">Emu3</span>
+        <span class="tech-tag">MSCOCO</span>
+        <span class="tech-tag">FID</span>
+        <span class="tech-tag">NVIDIA A100</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- XAI / Robustness -->
+  <div class="project-card glass">
+    <div class="project-image-container">
+      <img class="project-image" src="{{ '/assets/img/projects/xai_robustness.png' | relative_url }}" alt="Grad-CAM explanations of adversarial attacks">
+    </div>
+    <div class="project-content">
+      <span class="project-tag">Reliable AI</span>
+      <a href="https://github.com/luisfpal/XAI-RAI-UniTS" class="project-title">Model Robustness & XAI</a>
+      <p class="project-desc">Analyzed the robustness of ResNet, ViT, and Swin backbones against adversarial attacks. Evaluated XAI explanations (Grad-CAM, Captum) under noise perturbations.</p>
+      <div class="project-tech">
+        <span class="tech-tag">Vision Transformers</span>
+        <span class="tech-tag">Grad-CAM</span>
+        <span class="tech-tag">Adversarial ML</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Diffusion Models -->
+  <div class="project-card glass">
+    <div class="project-image-container">
+      <img class="project-image" src="{{ '/assets/img/projects/diffusion_anomaly.svg' | relative_url }}" alt="Diffusion Anomaly Correction">
+    </div>
+    <div class="project-content">
+      <span class="project-tag">Probabilistic ML</span>
+      <a href="https://github.com/luisfpal/ProbabilisticMachineLearningAndDeepLearning-UniTS" class="project-title">Diffusion Anomaly Correction</a>
+      <p class="project-desc">Developed an anomaly correction pipeline for categorical data. Combined classifier gradients with data distributions learned via diffusion models to refine predictions.</p>
+      <div class="project-tech">
+        <span class="tech-tag">Diffusion Models</span>
+        <span class="tech-tag">Anomaly Detection</span>
+        <span class="tech-tag">JAX/PyTorch</span>
+      </div>
+    </div>
+  </div>
+
   <!-- Cloud Computing -->
   <div class="project-card glass">
     <div class="project-image-container">
@@ -135,30 +204,13 @@ title: Projects
       <img class="project-image" src="{{ '/assets/img/projects/cpp_patterns.svg' | relative_url }}" alt="C++ Software Engineering Patterns">
     </div>
     <div class="project-content">
-      <span class="project-tag">Engineering</span>
+      <span class="project-tag">Software Eng</span>
       <a href="https://github.com/luisfpal/AdvancedProgramming-SISSA" class="project-title">Scientific C++ Engineering</a>
       <p class="project-desc">Advanced software engineering patterns for scientific applications at SISSA. Focused on memory management and high-performance design.</p>
       <div class="project-tech">
         <span class="tech-tag">C++</span>
         <span class="tech-tag">Design Patterns</span>
         <span class="tech-tag">Memory Ops</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- Bachelor Thesis -->
-  <div class="project-card glass">
-    <div class="project-image-container">
-      <img class="project-image" src="{{ '/assets/img/projects/bachelor_thesis.svg' | relative_url }}" alt="Bachelor Thesis in Physics">
-    </div>
-    <div class="project-content">
-      <span class="project-tag">Physics</span>
-      <a href="https://github.com/luisfpal/bachelor_thesis" class="project-title">Physics Bachelor Thesis</a>
-      <p class="project-desc">The formal academic manuscript and technical documentation required for the completion of my Bachelor’s degree in Physics.</p>
-      <div class="project-tech">
-        <span class="tech-tag">LaTeX</span>
-        <span class="tech-tag">Physics</span>
-        <span class="tech-tag">Research</span>
       </div>
     </div>
   </div>

@@ -11,10 +11,10 @@ title: Luis Palacios
 <div class="bento-grid">
   <div class="bento-item item-about glass">
     <p style="color: var(--text-primary); font-size: 1.1em; font-weight: 500;">
-      Bridging the gap between deep mathematical research and production-scale engineering.
+      Physics-informed Data Science, Machine Learning, and MLOps.
     </p>
     <p style="margin-top: 16px;">
-      As a culmination of my Master in Data Management & Curation, I am engineering production-scale systems at Area Science Park—building MLOps infrastructure (Kubernetes, BentoML) and secure data storage solutions (Kubernetes, S3, Ceph, Authentik). Simultaneously, I am extending my master's thesis on LLaVA to push the boundaries of Vision-Language Model (VLM) interpretability.
+      As part of my Master in Data Management & Curation, I am building MLOps infrastructure (Kubernetes, BentoML) and data storage solutions (S3, Ceph, Authentik) as an intern at Area Science Park. Concurrently, I am continuing my research on Vision-Language Model (VLM) interpretability, extending my master's thesis on LLaVA representations.
     </p>
   </div>
   
@@ -109,4 +109,5 @@ title: Luis Palacios
 
 <div style="margin-top: 40px; text-align: center;">
   <a href="{{ '/projects/' | relative_url }}" class="glass" style="padding: 12px 32px; text-decoration: none; color: var(--accent-cyan); font-weight: 600; font-size: 0.9em; display: inline-block;">Explore All Projects &rarr;</a>
+</div>ccent-cyan); font-weight: 600; font-size: 0.9em; display: inline-block;">Explore All Projects &rarr;</a>
 </div>
