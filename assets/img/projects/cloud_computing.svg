@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#1a1f2e"/>
+  <g stroke="#7df9ff" stroke-width="2" fill="none" opacity="0.6">
+    <rect x="80" y="80" width="60" height="40" rx="4"/>
+    <rect x="170" y="80" width="60" height="40" rx="4"/>
+    <rect x="260" y="80" width="60" height="40" rx="4"/>
+    <path d="M 140 100 L 170 100"/>
+    <path d="M 230 100 L 260 100"/>
+  </g>
+  <path d="M 120 70 Q 200 20 280 70" fill="none" stroke="#c38eff" stroke-width="2" stroke-dasharray="4 4" opacity="0.8"/>
+  <text x="200" y="160" font-family="monospace" font-size="12" fill="rgba(255,255,255,0.3)" text-anchor="middle">Distributed Systems &amp; Observability</text>
+</svg>

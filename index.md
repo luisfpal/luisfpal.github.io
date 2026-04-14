@@ -11,21 +11,26 @@ title: Luis Palacios
 <div class="bento-grid">
   <div class="bento-item item-about glass">
     <p style="color: var(--text-primary); font-size: 1.1em; font-weight: 500;">
-      Dual Master's in Data Science & AI and Data Management.
+      Data Management Intern @ Area Science Park (Trieste, Italy)
     </p>
     <p style="margin-top: 16px;">
-      I build high-performance machine learning systems at the intersection of geometric representations, generative modeling, and multimodal architectures. My physics background drives a first-principles approach to solving complex AI problems.
+      Currently building scalable MLOps infrastructure utilizing Kubernetes, S3, Ceph, and BentoML. Alongside my engineering work, I'm conducting active research in Vision-Language Model (VLM) interpretability. My physics background drives a first-principles approach to solving complex AI and data scale problems.
     </p>
   </div>
   
   <div class="bento-item item-stat glass">
-    <div class="stat-value">2</div>
-    <div class="stat-label">Master's Degrees</div>
+    <div class="stat-value" style="font-size: 2em;">MLOps</div>
+    <div class="stat-label">K8s &middot; Ceph &middot; BentoML</div>
   </div>
-  
+
   <div class="bento-item item-stat glass">
-    <div class="stat-value">A100</div>
-    <div class="stat-label">Scale Experience</div>
+    <div class="stat-value" style="font-size: 1.4em;">MSc Data Science & AI</div>
+    <div class="stat-label">University of Trieste</div>
+  </div>
+
+  <div class="bento-item item-stat glass">
+    <div class="stat-value" style="font-size: 1.4em;">Master Data Management</div>
+    <div class="stat-label"><a href="https://www.sissa.it/training/professional-master-courses/master-data-management-and-curation" style="color: inherit; text-decoration: underline;" target="_blank">SISSA & Area Science Park</a></div>
   </div>
 </div>
 
@@ -103,19 +108,5 @@ title: Luis Palacios
 </div>
 
 <div style="margin-top: 40px; text-align: center;">
-  <a href="/projects/" class="glass" style="padding: 12px 32px; text-decoration: none; color: var(--accent-cyan); font-weight: 600; font-size: 0.9em; display: inline-block;">Explore All Projects &rarr;</a>
-</div>
-    <a href="https://github.com/luisfpal/ProbabilisticMachineLearningAndDeepLearning-UniTS" class="project-title">Diffusion Anomaly Correction</a>
-      <p class="project-desc">Developed an anomaly correction pipeline for categorical data. Combined classifier gradients with data distributions learned via diffusion models to refine predictions.</p>
-      <div class="project-tech">
-        <span class="tech-tag">Diffusion Models</span>
-        <span class="tech-tag">Anomaly Detection</span>
-        <span class="tech-tag">JAX/PyTorch</span>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div style="margin-top: 40px; text-align: center;">
-  <a href="/projects/" class="glass" style="padding: 12px 32px; text-decoration: none; color: var(--accent-cyan); font-weight: 600; font-size: 0.9em; display: inline-block;">Explore All Projects &rarr;</a>
+  <a href="{{ '/projects/' | relative_url }}" class="glass" style="padding: 12px 32px; text-decoration: none; color: var(--accent-cyan); font-weight: 600; font-size: 0.9em; display: inline-block;">Explore All Projects &rarr;</a>
 </div>

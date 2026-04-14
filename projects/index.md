@@ -9,6 +9,24 @@ title: Projects
 </div>
 
 <div class="featured-projects">
+
+  <!-- Cloud Computing -->
+  <div class="project-card glass">
+    <div class="project-image-container">
+      <img class="project-image" src="{{ '/assets/img/projects/cloud_computing.svg' | relative_url }}" alt="Distributed Systems Observability">
+    </div>
+    <div class="project-content">
+      <span class="project-tag">Distributed Systems</span>
+      <a href="https://github.com/luisfpal/CloudComputing-UniTS" class="project-title">Cloud Observability & Testing</a>
+      <p class="project-desc">Implemented a containerized Nextcloud deployment with a robust observability pipeline. Evaluated system scalability using Prometheus, Grafana, and Locust load testing.</p>
+      <div class="project-tech">
+        <span class="tech-tag">Docker</span>
+        <span class="tech-tag">Prometheus/Grafana</span>
+        <span class="tech-tag">Locust</span>
+      </div>
+    </div>
+  </div>
+
   <!-- Optimization -->
   <div class="project-card glass">
     <div class="project-image-container">
@@ -77,6 +95,23 @@ title: Projects
     </div>
   </div>
 
+  <!-- Statistical Methods -->
+  <div class="project-card glass">
+    <div class="project-image-container">
+      <img class="project-image" src="{{ '/assets/img/projects/statistical_methods.svg' | relative_url }}" alt="Statistical Methods and Data Analysis">
+    </div>
+    <div class="project-content">
+      <span class="project-tag">Data Science</span>
+      <a href="https://github.com/luisfpal/StatisticalMethods-UniTS" class="project-title">Statistical Analysis & Modeling</a>
+      <p class="project-desc">Comprehensive statistical analysis project focusing on data processing, robust modeling, and reproducible research reporting.</p>
+      <div class="project-tech">
+        <span class="tech-tag">R</span>
+        <span class="tech-tag">RMarkdown</span>
+        <span class="tech-tag">Statistics</span>
+      </div>
+    </div>
+  </div>
+
   <!-- HPC -->
   <div class="project-card glass">
     <div class="project-image-container">
@@ -110,4 +145,22 @@ title: Projects
       </div>
     </div>
   </div>
+
+  <!-- Bachelor Thesis -->
+  <div class="project-card glass">
+    <div class="project-image-container">
+      <img class="project-image" src="{{ '/assets/img/projects/bachelor_thesis.svg' | relative_url }}" alt="Bachelor Thesis in Physics">
+    </div>
+    <div class="project-content">
+      <span class="project-tag">Physics</span>
+      <a href="https://github.com/luisfpal/bachelor_thesis" class="project-title">Physics Bachelor Thesis</a>
+      <p class="project-desc">The formal academic manuscript and technical documentation required for the completion of my Bachelor’s degree in Physics.</p>
+      <div class="project-tech">
+        <span class="tech-tag">LaTeX</span>
+        <span class="tech-tag">Physics</span>
+        <span class="tech-tag">Research</span>
+      </div>
+    </div>
+  </div>
+
 </div>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#1a1f2e"/>
+  <g fill="#c38eff" opacity="0.7">
+    <rect x="150" y="40" width="100" height="120" rx="2" fill="none" stroke="#c38eff" stroke-width="2"/>
+    <rect x="160" y="60" width="80" height="4" rx="2"/>
+    <rect x="160" y="70" width="80" height="4" rx="2"/>
+    <rect x="160" y="80" width="60" height="4" rx="2"/>
+    <rect x="160" y="100" width="80" height="4" rx="2"/>
+    <rect x="160" y="110" width="80" height="4" rx="2"/>
+    <rect x="160" y="120" width="70" height="4" rx="2"/>
+    <rect x="160" y="140" width="40" height="4" rx="2"/>
+  </g>
+  <text x="200" y="180" font-family="monospace" font-size="12" fill="rgba(255,255,255,0.3)" text-anchor="middle">Bachelor Thesis (Physics)</text>
+</svg>
