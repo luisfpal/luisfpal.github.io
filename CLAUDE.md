@@ -21,10 +21,11 @@ A personal GitHub Pages site for Luis Palacios, built with Jekyll. Hosted at htt
 
 ## Design constraints
 
-- No JavaScript frameworks
-- No colors beyond grays
-- Max-width 680px, system font stack
-- Keep pages sparse — empty sections are fine
+The rules for what this page may say, and for the night palette, live in `.grok/skills/personal-site/SKILL.md`. Follow that file. Do not keep a second copy of those rules here.
+
+- No JavaScript
+- Max-width 680px
+- One page, one claim
 
 ---
 
