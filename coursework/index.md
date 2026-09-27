@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Course
+title: Coursework
 ---
 
-<p class="path"><a href="{{ '/' | relative_url }}">~/</a>course/</p>
+<p class="path"><a href="{{ '/' | relative_url }}">~/</a><a href="{{ '/coursework/' | relative_url }}">coursework/</a></p>
 
-<p>Someone else set the question. The point was to do the assignment.</p>
+<p>Projects from university courses.</p>
 
 <ul class="course">
   <li><a href="https://github.com/luisfpal/AdvancedDeepLearning-UniTS">Advanced deep learning</a> <span>Networks that treat a rotated image as the same object, and networks that stay apart when inputs only look alike. Group-equivariant CNNs, and low-coherence MLPs.</span></li>

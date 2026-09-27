@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Paper
+title: NeurIPS 2026
 ---
 
-<p class="path"><a href="{{ '/' | relative_url }}">~/</a>paper/</p>
+<p class="path"><a href="{{ '/' | relative_url }}">~/</a><a href="{{ '/papers/' | relative_url }}">papers/</a>neurips/</p>
 
 <p class="claim">Visual instruction tuning writes visual features into the middle of a language model, where the model already abstracts text. The early layers stay on their own modality. Tuning only that middle band, on LLaVA-7B and OneVision-4B, matches full fine-tuning on the vision benchmarks and takes less training time.</p>
 
@@ -19,8 +19,8 @@ title: Paper
 
 <p class="byline">Luis Palacios*, Lorenzo Basile*, Diego Doimo, Alberto Cazzaniga.</p>
 
-<p class="venue">Accepted as a poster, NeurIPS 2026. <a href="https://arxiv.org/abs/2606.03871">Preprint</a>.</p>
+<p class="venue">Accepted as a poster, NeurIPS 2026. <a href="https://arxiv.org/abs/2606.03871">Preprint</a>. <a href="{{ '/theses/dsai.pdf' | relative_url }}">📄 Thesis</a>.</p>
 
 <p class="note">* Equal contribution.</p>
 
-<p class="role">The paper began as my master's thesis at the Laboratory of Data Engineering, Area Science Park. Lorenzo Basile, Diego Doimo, and Alberto Cazzaniga designed the core experiments. I developed the codebase and ran the experiments with Lorenzo Basile and Diego Doimo. The thesis writeup is <a href="{{ '/theses/dsai.pdf' | relative_url }}">here</a>.</p>
+<p class="role">The paper began as my master's thesis at the Laboratory of Data Engineering, Area Science Park. Lorenzo Basile, Diego Doimo, and Alberto Cazzaniga designed the core experiments. I developed the codebase and ran the experiments with Lorenzo Basile and Diego Doimo.</p>

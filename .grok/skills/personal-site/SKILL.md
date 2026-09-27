@@ -15,11 +15,11 @@ The homepage is a directory. It names Luis and lists the doors. A claim lives on
 
 The homepage is the directory. The folder name is the claim a stranger is allowed to make.
 
-- `paper/` is a result other people reviewed. The claim, Figure 1, the venue line, and who did what.
+- `papers/` lists two papers. `papers/neurips/` is the accepted poster. `papers/escience/` is the IEEE eScience 2026 submission that was not accepted, for lack of throughput experiments. The services had been deployed and worked. Do not say published. Do not call the two services one finished platform or two unrelated projects.
 - `theses/` is a question he owned for a degree. The PDF is the file a stranger opens. The data-science thesis points at `paper/` and keeps its own title. The data-management thesis is one service layer built twice: storage people can govern, and an analysis API. Both were deployed and worked. The IEEE eScience 2026 submission was not accepted, for lack of throughput experiments. Do not say published, and do not call the two instantiations two projects.
 - `projects/` is something he started. Nobody assigned it and nobody graded it. It earns a line only if a stranger can open it.
 - `course/` is an assignment. One line and a repo. No pitch, no image, no tech tags. A course project does not sit next to the paper as the same kind of object.
-- `notes/` is where a note goes. An empty notes page says nothing is filed yet. Do not invent a note to fill it.
+- `notes/` is reading notes. A topic is a folder. A chapter is a markdown file in that folder. The topic page lists chapters in order, with a heading and a divider. Do not invent a chapter to fill an empty folder.
 - `cv` is the inventory. The site and the CV may not contradict.
 
 The picture on `/` is the lunar base. It is a picture of a place, not a result.

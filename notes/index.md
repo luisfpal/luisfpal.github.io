@@ -3,6 +3,6 @@ layout: default
 title: Notes
 ---
 
-<p class="path"><a href="{{ '/' | relative_url }}">~/</a>notes/</p>
+<p class="path"><a href="{{ '/' | relative_url }}">~/</a><a href="{{ '/notes/' | relative_url }}">notes/</a></p>
 
-<p>Nothing filed yet.</p>
+<p>Reading notes. None yet.</p>
