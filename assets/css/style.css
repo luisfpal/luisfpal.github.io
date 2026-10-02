@@ -6,6 +6,7 @@
   --cyan: #22d3ee;
   --magenta: #ff2bd6;
   --width: 680px;
+  --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
 }
 
 * {
@@ -60,6 +61,10 @@ hr {
   margin: 28px 0;
 }
 
+hr + h2 {
+  margin-top: 0;
+}
+
 .name {
   margin: 0;
   font-size: 1.35rem;
@@ -103,7 +108,7 @@ a:focus-visible {
 .path {
   margin: -8px 0 22px;
   color: var(--quiet);
-  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-family: var(--mono);
   font-size: 0.95rem;
 }
 
@@ -117,7 +122,7 @@ a:focus-visible {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-family: var(--mono);
   font-size: 0.95rem;
 }
 
@@ -128,6 +133,11 @@ a:focus-visible {
   margin: 0;
   min-height: 44px;
   align-items: center;
+  border-bottom: 1px solid rgba(139, 160, 181, 0.22);
+}
+
+.tree li:last-child {
+  border-bottom: 0;
 }
 
 .tree a {
@@ -145,27 +155,8 @@ a:focus-visible {
   flex-wrap: wrap;
   gap: 8px 16px;
   margin: 0 0 28px;
-}
-
-.course {
-  list-style: none;
-  padding: 0;
-  margin: 22px 0 0;
-}
-
-.course li {
-  margin: 0 0 8px;
-}
-
-.course a {
-  min-height: 44px;
-  display: inline-flex;
-  align-items: center;
-}
-
-.course span {
-  display: block;
-  color: var(--quiet);
+  font-family: var(--mono);
+  font-size: 0.95rem;
 }
 
 .claim {
@@ -190,7 +181,7 @@ a:focus-visible {
 
 .paper-figure figcaption {
   color: #1c2430;
-  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-family: var(--mono);
   font-size: 0.78rem;
   line-height: 1.45;
   margin-top: 8px;
@@ -216,7 +207,7 @@ a:focus-visible {
 .note,
 .edu li span {
   color: var(--quiet);
-  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-family: var(--mono);
   font-size: 0.82rem;
 }
 
@@ -228,6 +219,13 @@ h2 {
   font-size: 1rem;
   font-weight: 650;
   margin: 36px 0 12px;
+}
+
+h2.entry {
+  font-family: var(--mono);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0;
 }
 
 .edu {

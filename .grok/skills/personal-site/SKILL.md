@@ -1,57 +1,50 @@
 ---
 name: personal-site
 description: >
-  Edit Luis Palacios's site (luisfpal.github.io) and the CV in
-  /Users/l11/Documents/cv. Use when changing the homepage, a section, a
-  project, a note, a figure, or the venue line. The homepage is a directory.
-  /personal-site
+  Edit Luis Palacios's site (luisfpal.github.io). Use when changing the
+  homepage, a section, a project, a note, a figure, or the venue line.
+  The homepage is a directory. The CV has its own skill. /personal-site
 ---
 
 # Personal site
 
-The homepage is a directory. It names Luis and lists the doors. A claim lives on its own page. Adding work is a new file plus one line in the parent index. It is not a redesign of the homepage.
+The homepage is `~/`. It names Luis and lists the doors. A claim lives on its own page. Adding work is a new file plus one line in the parent index. It is not a redesign of the homepage.
+
+Read the page before writing. A sentence that is not in the artifact, or not confirmed by Luis, is not written. Do not link a private repository. Do not upgrade who did the work.
 
 ## The tree
 
-The homepage is the directory. The folder name is the claim a stranger is allowed to make.
+The folder name is the claim a stranger is allowed to make.
 
-- `papers/` lists two papers. `papers/neurips/` is the accepted poster. `papers/escience/` is the IEEE eScience 2026 submission that was not accepted, for lack of throughput experiments. The services had been deployed and worked. Do not say published. Do not call the two services one finished platform or two unrelated projects.
-- `theses/` is a question he owned for a degree. The PDF is the file a stranger opens. The data-science thesis points at `paper/` and keeps its own title. The data-management thesis is one service layer built twice: storage people can govern, and an analysis API. Both were deployed and worked. The IEEE eScience 2026 submission was not accepted, for lack of throughput experiments. Do not say published, and do not call the two instantiations two projects.
-- `projects/` is something he started. Nobody assigned it and nobody graded it. It earns a line only if a stranger can open it.
-- `course/` is an assignment. One line and a repo. No pitch, no image, no tech tags. A course project does not sit next to the paper as the same kind of object.
-- `notes/` is reading notes. A topic is a folder. A chapter is a markdown file in that folder. The topic page lists chapters in order, with a heading and a divider. Do not invent a chapter to fill an empty folder.
-- `cv` is the inventory. The site and the CV may not contradict.
+- `papers/` lists two papers. `papers/neurips/` is the accepted poster. `papers/escience/` is the IEEE eScience 2026 submission that was not accepted, because the review wanted throughput experiments. Do not say published.
+- `theses/` is three degrees, each a heading and a divider. Data Science and Artificial Intelligence keeps its own title and points at the NeurIPS page. Data Management and Curation is two independent pieces: a generator for machine-learning services that share a structure, and a web app for storage and governance. The scanning-electron-microscope classifier is the working example, not the product. They were not joined. They were not tuned for throughput. Physics is the magnetic spectra of the Earth and the Sun, separated by empirical mode decomposition.
+- `projects/` is work he started. Nobody assigned it and nobody graded it. Chapterize is the one there now.
+- `coursework/` is a university assignment. Heading, one sentence, the repository. A course project does not sit next to a paper as the same kind of object.
+- `notes/` is reading notes. None yet. A topic is a folder. A chapter is a markdown file. Do not invent a chapter to fill the folder.
+- The CV is one page. Its rules are in `.grok/skills/cv/SKILL.md`. A claim changes on the site and in the CV, or in neither.
 
-The picture on `/` is the lunar base. It is a picture of a place, not a result.
+## A listing page
 
-## Before writing a sentence
+Theses, papers, coursework, and projects use one block:
 
-Read the artifact: the paper, the README, the figure, or the deployed URL. A sentence that is not in the artifact, or not confirmed by Luis, is not written. Do not upgrade a contribution note. Do not link a private repository.
+- A heading with the class `entry`.
+- One sentence. Picture first, then the method name. Emoji does not go in the sentence.
+- A link row, class `entry-links`. A pdf is `📄 pdf`. Slides are `📊 slides`. A repository is the word `code`.
+- An `<hr>` between entries. Not after the last one.
 
-## What earns a page
-
-A page stays if a stranger can open it and check something, or if Luis asked for the door before the files exist (`notes/`). Put the work in the folder that matches who owned the question. Do not promote a course project into `projects/` or `theses/` because the code is impressive.
-
-A line is a picture, then the name of the method. "SAC and TD3" alone fails. A slogan fails. The advanced-programming homework was three people with a similar share: Luis, Piero Zappi, and Marco Tallone. Do not write that the others did most of it.
-
-Do not promise work that is not done. No city as where he lives, no health, no "open to work" unless he asks for that line in the same conversation.
-
-## Venue words
-
-"Accepted" only after Luis confirms a decision. Name the presentation type when he has it. "Published" only when a proceedings page or an updated arXiv comment exists. Link the preprint until then.
-
-The role on the paper page matches the paper's contribution note. Alberto Cazzaniga designed the core experiments. He did not write the code or run them. That work was Luis, Lorenzo Basile, and Diego Doimo.
+Emoji is the icon of a door on the homepage, or of a file in a link row. The doors are 📚 papers, 🎓 theses, 🔧 projects, 🏫 coursework, 📝 notes, 📎 cv.
 
 ## Look
 
-- Ground `#070B14`. Text `#D5E6F5`. Quiet text `#8BA0B5`.
-- Cyan `#22D3EE` for links and focus. Magenta `#FF2BD6` once, as a hairline under the name.
-- The directory listing is system mono. Prose is the system sans.
+- Ground `#070B14`. Deeper ground `#05070E`. Text `#D5E6F5`. Quiet text `#8BA0B5`.
+- Cyan `#22D3EE` for links. Magenta `#FF2BD6` once, the hairline under the name.
+- Prose is the system sans. Paths, the homepage listing, entry headings, and link rows are the system mono already on the machine. Do not load a webfont.
 - Max-width 680px. No JavaScript.
 - No glass, no blur, no glow, no gradient text, no tech tags, no card grid.
-- The homepage picture is the lunar base he keeps on the desktop (`assets/img/base.jpg`), shown whole. Do not swap it for a diagram or a slogan poster.
-- A scientific figure stays on the paper page and keeps its own ground. Do not recolor it.
+- The homepage picture is the lunar base (`assets/img/base.jpg`), shown whole, on the homepage only.
+- The portrait is the drawing on the homepage only. The alt text says it is a drawing, not a photograph.
+- A scientific figure stays on the paper page and keeps its own ground.
 
-## CV
+## What stays off the site
 
-Wording, spacing, and what earns a line on the CV are in `.grok/skills/cv/SKILL.md`. Follow that skill. When a claim changes, change the site and the CV together, regenerate `cv.pdf`, and copy it here.
+No city as where he lives. No health. No "open to work". The GitHub bio sentence does not go on the site. Do not promise work that is not done.
