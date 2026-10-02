@@ -13,5 +13,5 @@ title: Luis Palacios
   <li><a href="{{ '/projects/' | relative_url }}">🔧 projects/</a><span>Work I started myself.</span></li>
   <li><a href="{{ '/coursework/' | relative_url }}">🏫 coursework/</a><span>From my courses.</span></li>
   <li><a href="{{ '/notes/' | relative_url }}">📝 notes/</a><span>Reading notes. None yet.</span></li>
-  <li><a href="{{ '/cv.pdf' | relative_url }}">📎 cv</a><span>One page.</span></li>
+  <li><a href="{{ '/cv.pdf' | relative_url }}">📎 cv</a><span>Two pages.</span></li>
 </ul>

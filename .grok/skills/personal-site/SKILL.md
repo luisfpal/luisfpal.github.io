@@ -54,8 +54,4 @@ The role on the paper page matches the paper's contribution note. Alberto Cazzan
 
 ## CV
 
-The CV is `/Users/l11/Documents/cv`, and its remote is Overleaf. Change the site and the CV together when a claim changes, or change neither. Regenerate `cv.pdf`, copy it to the site, and keep the rendered CV to one page.
-
-Do not delete comment archives in `cv.tex`. When wording leaves the rendered CV, append it to the archive comment. Advisor emails stay in that archive. The rendered line says references are available on request.
-
-Push the website only after Luis has seen the page. Push the CV to Overleaf only when he asked, and never force-push.
+Wording, spacing, and what earns a line on the CV are in `.grok/skills/cv/SKILL.md`. Follow that skill. When a claim changes, change the site and the CV together, regenerate `cv.pdf`, and copy it here.
