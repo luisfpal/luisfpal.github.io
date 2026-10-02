@@ -12,7 +12,7 @@ title: Theses
 <hr>
 
 <h2>Data Management and Curation</h2>
-<p>Two independent pieces. One is governance and storage: people decide where files live, and who may see them. The other is analysis: send an image, wait, get a classification. The idea was that the second could also add to the data, and that the two would later be one platform. I left before that join. Both were far enough along to run. They were not tuned for throughput.</p>
+<p>Two independent pieces. One is a generator: machine-learning services that share a structure are deployed the same way, on Kubernetes. The working example classifies scanning-electron-microscope images. The other is a web app for storage and governance. The idea was to join them later. I left before that. Both ran. They were not tuned for throughput.</p>
 <p class="entry-links">
   <a href="{{ '/theses/mdmc.pdf' | relative_url }}">📄 pdf</a>
   <a href="{{ '/theses/mdmc-slides.pdf' | relative_url }}">📊 slides</a>
