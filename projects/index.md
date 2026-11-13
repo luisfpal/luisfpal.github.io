@@ -16,7 +16,7 @@ title: Projects
 <hr>
 
 <h2 class="entry">Playing architect</h2>
-<p>A two-storey house you walk through in the browser, designed as code by coding agents that I directed.</p>
+<p>A side project where I played architect with AI coding agents. The result is a two-storey house you can walk through in the browser.</p>
 <p class="entry-links">
   <a href="https://github.com/luisfpal/playing-architect">code</a>
   <a href="https://luisfpal.github.io/playing-architect/">demo</a>
