@@ -18,7 +18,7 @@ The folder name is the claim a stranger is allowed to make.
 
 - `papers/` lists two papers. `papers/neurips/` is the accepted poster. `papers/escience/` is the IEEE eScience 2026 submission that was not accepted, because the review wanted throughput experiments. Do not say published.
 - `theses/` is three degrees, each a heading and a divider. Data Science and Artificial Intelligence keeps its own title and points at the NeurIPS page. Data Management and Curation is two independent pieces: a generator for machine-learning services that share a structure, and a web app for storage and governance. The scanning-electron-microscope classifier is the working example, not the product. They were not joined. They were not tuned for throughput. Physics is the magnetic spectra of the Earth and the Sun, separated by empirical mode decomposition.
-- `projects/` is work he started. Nobody assigned it and nobody graded it. Chapterize is the one there now.
+- `projects/` is work he started. Nobody assigned it and nobody graded it. Chapterize and Playing architect are there now. Playing architect links its code and its GitHub Pages demo.
 - `coursework/` is a university assignment. Heading, one sentence, the repository. A course project does not sit next to a paper as the same kind of object.
 - `notes/` is reading notes. None yet. A topic is a folder. A chapter is a markdown file. Do not invent a chapter to fill the folder.
 - The CV is one page. Its rules are in `.grok/skills/cv/SKILL.md`. A claim changes on the site and in the CV, or in neither.

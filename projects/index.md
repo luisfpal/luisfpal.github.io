@@ -12,3 +12,12 @@ title: Projects
 <p class="entry-links">
   <a href="https://github.com/luisfpal/chapterize">code</a>
 </p>
+
+<hr>
+
+<h2 class="entry">Playing architect</h2>
+<p>A two-storey house you walk through in the browser, designed as code by coding agents that I directed.</p>
+<p class="entry-links">
+  <a href="https://github.com/luisfpal/playing-architect">code</a>
+  <a href="https://luisfpal.github.io/playing-architect/">demo</a>
+</p>
