@@ -7,10 +7,11 @@ title: Projects
 
 <p>Work I started myself.</p>
 
-<h2 class="entry">Chapterize</h2>
-<p>Splits an EPUB into one file per chapter so a model can read that chapter and not the rest of the book. It runs on the machine. The book does not leave it.</p>
+<h2 class="entry">Vicaria</h2>
+<p>A book reader I am building for myself. You read a book, ask questions about a chapter, listen to it, and see how its ideas connect to other books. It runs in your browser and your books stay on your device.</p>
 <p class="entry-links">
-  <a href="https://github.com/luisfpal/chapterize">code</a>
+  <a href="https://github.com/luisfpal/vicaria">code</a>
+  <a href="https://luisfpal.github.io/vicaria/">app</a>
 </p>
 
 <hr>
